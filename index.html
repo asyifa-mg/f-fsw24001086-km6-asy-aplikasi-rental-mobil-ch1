@@ -18,98 +18,113 @@
   </head>
 
   <body>
-    <!-- Navbar -->
-    <div class="container">
-      <header class="d-flex flex-wrap justify-content-center py-3 mb-4">
-        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-         <img
+    <!-- Main -->
+    <main>
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg bg-transparent">
+        <div class="container">
+          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <img
               src="./assets/images/logo.svg"
               class="d-block mx-lg-auto img-fluid"
               alt="Bootstrap Themes"
               width="100px"
               height="34px"
-              Top="25px"
-              left="136px"
             />
-        </a>
+          </a>
   
-        <ul class="nav nav-pills">
-          <li class="nav-item"><a href="#our-services" class="nav-link">Our Services</a></li>
-          <li class="nav-item"><a href="#why-us" class="nav-link">Why Us</a></li>
-          <li class="nav-item"><a href="#testimonials" class="nav-link">Testimonial</a></li>
-          <li class="nav-item"><a href="#faq" class="nav-link">FAQ</a></li>
-          <li class="nav-item"><a href="" class="nav-link active" aria-current="page">Register</a></li>
-        </ul>
-      </header>
-    </div>
-<!-- End Navbar -->
-
-    <!-- Title -->
-    <section id="title">
-      <div class="container col-xxl-8 px-4 py-5">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-          <div class="col-10 col-sm-8 col-lg-6">
-            <img
-              src="./assets/images/img_car.png"
-              class="d-block mx-lg-auto img-fluid"
-              alt="Bootstrap Themes"
-              width="700"
-              height="500"
-              loading="lazy"
-            />
-          </div>
-          <div class="col-lg-6">
-            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
-              Sewa & Rental Mobil Terbaik di kawasan (Lokasimu)
-            </h1>
-            <p class="lead">
-              Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas terbaik dengan harga terjangkau. Selalu siap melayani kebutuhanmu untuk sewa mobil selama 24 jam.
-            </p>
-            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-              <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">
-                Mulai Sewa Mobil
-              </button>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item mx-3 my-1 "><a href="#our-services" class="nav-link">Our Services</a></li>
+                <li class="nav-item mx-3 my-1"><a href="#why-us" class="nav-link">Why Us</a></li>
+                <li class="nav-item mx-3 my-1"><a href="#testimonials" class="nav-link">Testimonial</a></li>
+                <li class="nav-item mx-3 my-1"><a href="#faq" class="nav-link">FAQ</a></li>
+                <li class="nav-item mx-3 my-1"><a href="" class="btn btn-sewa">Register</a></li>
+              </ul>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-
-      <!-- Our Services Section  -->
-      <section id="our-services">
-      <div class="container col-xxl-8 px-4 py-5">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-        <div class="row featurette">
-        <div class="col-md-7 order-md-5">
-        <h2 class="featurette-heading fw-normal lh-1"><b>Best Car Rental for any kind of trip in (Lokasimu)!</b></h2>
-        <p class="lead">Sewa mobil di (Lokasimu) bersama Binar Car Rental jaminan harga lebih murah dibandingkan yang lain, kondisi mobil baru, serta kualitas pelayanan terbaik untuk perjalanan wisata, bisnis, wedding, meeting, dll.</p>
-          
-
-      </div>
-      <div class="col-md-5 order-md-1">
-          <img
-            src="./assets/images/img_service.png"
-            class="d-block mx-lg-auto img-fluid"
-            alt="Bootstrap Themes"
-            loading="lazy" width=" 459px" height=" 428px" top=" 604px" left=" 206px"
-          />
+      </nav>
+      <!-- End Navbar -->
+           <!-- Hero -->
+    <section id="hero">
+      <div class="container-xxl">
+        <div class="row">
+          <div class="col-lg-5 mx-lg-5 col-xl-5 col-xxl-5 mx-md-0 " style="padding-top: 100px;">
+            <h2 class="fw-bold" style="padding-right: 20px;">
+              Sewa & Rental Mobil Terbaik di kawasan Padang
+            </h2>
+            <p>
+              Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas terbaik dengan harga terjangkau. Selalu siap melayani kebutuhanmu untuk sewa mobil selama 24 jam.
+            </p>
+            <a href="" class="btn btn-sewa">Mulai Sewa Mobil</a>
+          </div>
+          <div class="col-lg-5 col-xl-6 col-xxl-6 mt-lg-3" style="padding-top: 50px; "><img class="" width="700" src="./assets/images/img_car.png" alt="" height="500px"></div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+    <!-- End Hero -->
+  </main>
+  <!-- End Main -->
+
+      <!-- Our Services Section  -->
+      <section class="content" id="our-services">
+        <div class="container">
+          <div class="row">
+              <div class="col-lg-6 mt-4" style="padding-top: 50px">
+                <img
+                  src="./assets/images/img_service.png"
+                  alt="" height=" 428px"
+                />
+              </div>
+              <div class="col-lg-6" style="padding-top: 50px">
+                <h2 style="padding-right: 200px; padding-top: 50px";><b>Best Car Rental for any kind of trip in Padang!</b></h2>
+                <p style="font-size: 14px; padding-right: 30px;">Sewa mobil di Padang bersama Binar Car Rental jaminan harga lebih murah dibandingkan yang lain, kondisi mobil baru, serta kualitas pelayanan terbaik untuk perjalanan wisata, bisnis, wedding, meeting, dll.</p>
+                <div class="checklist ">
+                  <p><img src="./assets/images/Group 53.svg"style="margin-right: 16px; " alt=" "> Sewa Mobil Dengan Supir di Bali 12 Jam</p>
+                </div>
+                <div class="checklist ">
+                  <p><img src="./assets/images/Group 53.svg"style="margin-right: 16px; " alt=" "> Sewa Mobil Lepas Kunci di Bali 24 Jam</p>
+                </div>
+                <div class="checklist">
+                  <p><img src="./assets/images/Group 53.svg" style="margin-right: 16px; " alt=" "> Sewa Mobil Jangka Panjang Bulanan</p>
+                </div>
+                <div class="checklist">
+                  <p><img src="./assets/images/Group 53.svg" style="margin-right: 16px; " alt=" "> Gratis Antar - Jemput Mobil di Bandara</p>
+                </div>
+                <div class="checklist">
+                  <p><img src="./assets/images/Group 53.svg" style="margin-right: 16px; " alt=" "> Layanan Airport Transfer / Drop In Out</p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- END Our Services Section  -->
+
 
     <!-- Why Us Section -->
-    <section id="why-us">
+    <section class="whyus" id="why-us">
       <div class="container px-4 py-5" id="featured-3">
+        <div class="row">
         <h2 class="pb-2 text-left" weight="700" font-size="24px"><b>Why Us?</b></h2>
         <p class="text-left">
           Mengapa harus pilih Binar Car Rental?
         </p>
-
-        <div class="row g-4 py-5 row-cols-1 row-cols-lg-4">
+      </div>
+        <div class="row">
           <!--bagian pertama-->
-          <div class="feature col">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center  bg-gradient fs-2 mb-3">
+          <div class="col-lg-3 ">
+          <div class="feature">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center  bg-gradient fs-2 mb-3 mt-3">
             <img
             src="./assets/images/icon_complete.svg"
             class="d-block mx-lg-auto img-fluid"
@@ -120,11 +135,13 @@
             <h6 class="text-body-emphasis"><b>Mobil Lengkap</b></h6>
             <p>Tersedia banyak pilihan mobil, kondisi masih baru, bersih dan terawat</p>
           </div>
+        </div>
 
           <!--bagian kedua-->
-          <div class="feature col">
+          <div class="col-lg-3 ">
+          <div class="feature">
             <div
-              class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2 mb-3">
+              class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2 mb-3 mt-3">
               <img
               src="./assets/images/icon_price.svg"
               class="d-block mx-lg-auto img-fluid"
@@ -132,16 +149,18 @@
               loading="lazy" 
             />
             </div>
-            <h6 class="text-body-emphasis"><b>Harga Murah</b></h6>
+            <h6 class="text-body-emphasis" ><b>Harga Murah</b></h6>
             <p>
               Harga murah dan bersaing, bisa bandingkan harga kami dengan rental mobil lain
             </p>
           </div>
+        </div>
 
           <!--bagian ketiga-->
-          <div class="feature col">
+          <div class="col-lg-3 ">
+          <div class="feature">
             <div
-              class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2 mb-3">
+              class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2 mb-3 mt-3">
             <img
             src="./assets/images/icon_24hrs.svg"
             class="d-block mx-lg-auto img-fluid"
@@ -150,15 +169,18 @@
           />
             </div>
             <h6 class="text-body-emphasis"><b>Layanan 24 Jam</b></h6>
-            <br>
+            <p>
               Siap melayani kebutuhan Anda selama 24 jam nonstop. Kami juga tersedia di akhir minggu
-          </br>
+          </p>
           </div>
+          </div>
+          
 
            <!--bagian keempat-->
-           <div class="feature col">
+           <div class="col-lg-3 ">
+           <div class="feature">
             <div
-              class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2 mb-3">
+              class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2 mb-3 mt-3">
             <img
             src="./assets/images/icon_professional.svg"
             class="d-block mx-lg-auto img-fluid"
@@ -172,6 +194,7 @@
             </p>
           </div>
         </div>
+        </div>
       </div>
     </section>
 
@@ -183,6 +206,7 @@
       </p>
 
       <div id="carouselExample" class="carousel slide m-auto">
+      <!--carousel slide pertama-->
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div
@@ -211,23 +235,48 @@
           </div>
           <!--carousel slide kedua-->
           <div class="carousel-item">
-            <div class="container"></div>
+            <div class="container">
+              <div
+              class="col d-flex align-items-start align-items-center py-5 px-5"
+            >
+              <div
+                class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"
+              >
+              <img
+              src="./assets/images/img_photo.png" class="d-block mx-lg-auto img-fluid"
+                  alt="" width="70.22px" height="80px" top="1747px" left="460px"
+                />
+              </div>
+              <div>
+                <img class="align-items-left"
+                src="./assets/images/Rate.svg" class="d-block mx-lg-auto img-fluid"
+                    alt="" width="80px"height="16px"/>
+                <p>
+                  “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod”
+                </p>
+                <p>
+                  John Dee 32, Bromo
+                </p>
+              </div>
+            </div>
           </div>
+        </div>
         </div>
         <button
           class="carousel-control-prev"
           type="button"
           data-bs-target="#carouselExample"
-          data-bs-slide="prev"
+          data-bs-slide="prev" style="width: auto;"
         >
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
+                <!--button geser kekanan-->
         <button
           class="carousel-control-next"
           type="button"
           data-bs-target="#carouselExample"
-          data-bs-slide="next"
+          data-bs-slide="next" style="width: auto;"
         >
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
@@ -237,22 +286,22 @@
 
   <!-- CTA Banner-->
   <section id="banner">
-    <div class="container col-xxl-8 px-4 py-5">
+    <div class="container-xxl">
       <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-  <div class="page-home-corporate-card"><h3 class="page-home-corporate-card-title">Sewa Mobil di (Lokasimu) Sekarang</h3><div class="page-home-corporate-card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br></div><button type="button" class="btn btn-primary btn-lg px-4 me-md-2">
+  <div class="page-home-corporate-card"><h3 class="page-home-corporate-card-title">Sewa Mobil di Padang Sekarang</h3><div class="page-home-corporate-card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br></div><button type="button" class="btn btn-primary btn-lg px-4 me-md-2">
     Mulai Sewa Mobil
   </button></br></div>
   </section>
   
-
-  <!--FAQ-->
-  <section id="faq">
-    <div class="container col-xxl-8 px-4 py-5">
-      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-      <div class="row featurette">
+<!--FAQ-->
+<section id="faq">
+  <div class="container-xxl">
+    <div class="row featurette mt-5">
       <div class="col-md-7 order-md-5">
         <div class="accordion" id="accordionExample">
-          <div class="accordion-item">
+
+          <!-- Pertanyaan 1 -->
+          <div class="accordion-item mt-3">
             <h2 class="accordion-header" id="headingOne">
               <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                 Apa saja syarat yang dibutuhkan?
@@ -260,11 +309,13 @@
             </h2>
             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element.
+                <strong>Ini adalah tubuh accordion pertama.</strong> Ditampilkan secara default, sampai plugin collapse menambahkan kelas yang tepat yang kita gunakan untuk styling setiap elemen.
               </div>
             </div>
           </div>
-          <div class="accordion-item">
+
+          <!-- Pertanyaan 2 -->
+          <div class="accordion-item mt-3">
             <h2 class="accordion-header" id="headingTwo">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                 Berapa hari minimal sewa mobil lepas kunci?
@@ -272,135 +323,139 @@
             </h2>
             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element.
+                <strong>Ini adalah tubuh accordion kedua.</strong> Tersembunyi secara default, sampai plugin collapse menambahkan kelas yang tepat yang kita gunakan untuk styling setiap elemen.
               </div>
             </div>
           </div>
-          <div class="accordion-item">
+
+          <!-- Pertanyaan 3 -->
+          <div class="accordion-item mt-3">
             <h2 class="accordion-header" id="headingThree">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                Berapa hari sebelumnya sabaiknya booking sewa mobil?
+                Berapa hari sebelumnya sebaiknya booking sewa mobil?
               </button>
             </h2>
             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. 
+                <strong>Ini adalah tubuh accordion ketiga.</strong> Tersembunyi secara default, sampai plugin collapse menambahkan kelas yang tepat yang kita gunakan untuk styling setiap elemen. Kelas-kelas ini mengontrol penampilan keseluruhan, serta tampil dan menyembunyikan melalui transisi CSS.
               </div>
             </div>
           </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingThree">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                Apakah Ada biaya antar-jemput?
+
+          <!-- Pertanyaan 4 -->
+          <div class="accordion-item mt-3">
+            <h2 class="accordion-header" id="headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                Apakah ada biaya antar-jemput?
               </button>
             </h2>
-            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. 
+                <strong>Ini adalah tubuh accordion keempat.</strong> Tersembunyi secara default, sampai plugin collapse menambahkan kelas yang tepat yang kita gunakan untuk styling setiap elemen.
               </div>
             </div>
           </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingThree">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+
+          <!-- Pertanyaan 5 -->
+          <div class="accordion-item mt-3">
+            <h2 class="accordion-header" id="headingFive">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                 Bagaimana jika terjadi kecelakaan?
               </button>
             </h2>
-            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. 
+                <strong>Ini adalah tubuh accordion kelima.</strong> Tersembunyi secara default, sampai plugin collapse menambahkan kelas yang tepat yang kita gunakan untuk styling setiap elemen.
               </div>
             </div>
           </div>
+
         </div>
-    </div>
-    <div class="col-md-5 order-md-1">
-      <h3><b>Frequently Asked Question</b></h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <div>
+          <h3><b>Frequently Asked Questions</b></h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
 <!--footer-->
-    <section id="footer">
-      <div class="container">
-        <footer class="py-5">
-          <div class="row">
-            <div class="col-6 col-md-3 mb-3">
-              <p>Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000</p>
-                <p>binarcarrental@gmail.com</p>
-                <p>081-233-334-808</p>
-            </div>
-      
-            <div class="col-6 col-md-3">
-              <ul class="nav flex-column">
-                <li class="nav-item mb-2"><b><a href="#our-services" class="nav-link p-0 text-body-secondary">Our services</a></li>
-                <li class="nav-item mb-2"><a href="#why-us" class="nav-link p-0 text-body-secondary">Why Us</a></li>
-                <li class="nav-item mb-2"><a href="#testimonials" class="nav-link p-0 text-body-secondary">Testimonial</a></li>
-                <li class="nav-item mb-2"><a href="#faq" class="nav-link p-0 text-body-secondary">FAQ</a></li></b></li>
-              </ul>
-            </div>
-      
-            <div class="col-6 col-md-2 mb-3">
-              <p>  Connect with us</p> 
-              <ul class="nav justify-content-center">
-                <li><img
-                  src="./assets/images/icon_facebook.svg"
-                  class="d-block mx-lg-auto img-fluid"
-                  alt="Bootstrap Themes"
-                  loading="lazy" width="32px" height= 32px"
-                  
-                  /> </li>
-                  <li><img  
-                    src="./assets/images/icon_instagram.svg"
-                    class="d-block mx-lg-auto img-fluid"
-                    alt="Bootstrap Themes"
-                    loading="lazy" width="32px" height= 32px
-                  />  </li>
-                  <li><img  
-                    src="./assets/images/icon_twitter.svg"
-                    class="d-block mx-lg-auto img-fluid"
-                    alt="Bootstrap Themes"
-                    loading="lazy" width="32px" height= 32px
-                  />  </li>
-                <li><img
-                src="./assets/images/icon_mail.svg"
-                class="d-block mx-lg-auto img-fluid"
-                alt="Bootstrap Themes"
-                loading="lazy" width="32px" height= 32px
-                /> </li>
+<section id="footer">
+  <div class="container-xxl mt-5">
+    <footer class="py-5">
+      <div class="row">
+        <div class="col-6 col-md-3 mb-3">
+          <p>Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000</p>
+            <p>binarcarrental@gmail.com</p>
+            <p>081-233-334-808</p>
+        </div>
+  
+        <div class="col-6 col-md-3">
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><b><a href="#our-services" class="nav-link p-0 text-body-secondary">Our services</a></li>
+            <li class="nav-item mb-2"><a href="#why-us" class="nav-link p-0 text-body-secondary">Why Us</a></li>
+            <li class="nav-item mb-2"><a href="#testimonials" class="nav-link p-0 text-body-secondary">Testimonial</a></li>
+            <li class="nav-item mb-2"><a href="#faq" class="nav-link p-0 text-body-secondary">FAQ</a></li></b></li>
+          </ul>
+        </div>
+  
+        <div class="col-6 mrcol-md-1 col-md-3">
+          <p>  Connect with us</p> 
+          <ul class="nav justify-content-center">
+            <li><img
+              src="./assets/images/icon_facebook.svg"
+              class="mx-1"
+              alt="" width="32px" height= 32px"
+              
+              /> </li>
               <li><img  
-                src="./assets/images/icon_twitch.svg"
-                class="d-block mx-lg-auto img-fluid"
-                alt="Bootstrap Themes"
-                loading="lazy" width="32px" height= 32px
-                /> </li>
-              </ul>
-            </div>
+                src="./assets/images/icon_instagram.svg"
+                class="mx-1"
+                alt="" width="32px" height= 32px
+              />  </li>
+              <li><img  
+                src="./assets/images/icon_twitter.svg"
+                class="mx-1"
+                alt=""width="32px" height= 32px
+              />  </li>
+            <li><img
+            src="./assets/images/icon_mail.svg"
+            class="mx-1"
+            alt="" width="32px" height= 32px
+            /> </li>
+          <li><img  
+            src="./assets/images/icon_twitch.svg"
+            class="mx-1"
+            alt="" width="32px" height= 32px
+            /> </li>
+          </ul>
+        </div>
 
-      
-            <div class="col-6 col-md-2 mb-3">
-              <p>Copyright Binar 2022</p>
-              <img
-              src="./assets/images/logo.svg"
-              class="d-block mx-lg-auto img-fluid"
-              alt="Bootstrap Themes"
-              width="100px"
-              height="34px"
-              Top="25px"
-              left="136px"
-            />
-            </div>
-          </div>
-        </footer>
+  
+        <div class="col-6 col-md-2 mb-3">
+          <p>Copyright Binar 2022</p>
+          <img
+          src="./assets/images/logo.svg"
+          class="d-block mx-lg-auto img-fluid"
+          alt="Bootstrap Themes"
+          width="100px"
+          height="34px"
+          Top="25px"
+          left="136px"
+        />
+        </div>
       </div>
-    </section>
+    </footer>
+  </div>
+</section>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+  crossorigin="anonymous"
+></script>
+</body>
 </html>
